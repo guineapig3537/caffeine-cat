@@ -2,6 +2,17 @@
 
 A browser game for caring for a cat, earning coins through daily check-ins, and reflecting on caffeine habits. This initial prototype is intended for teens; caffeine consumption itself never earns rewards, and the game does not recommend a daily caffeine target.
 
+## Install on your phone
+
+Open the hosted HTTPS game link in Safari (iPhone) or Chrome (Android).
+
+- iPhone: tap Share, then **Add to Home Screen** (or find Share in the browser menu).
+- Android: tap **Install Caffeine Cat** when offered, or use Chrome’s menu → **Install app / Add to Home screen**.
+- Stay online for the first load so the offline files can finish downloading. Afterward, launch from the home-screen icon to play offline.
+- Progress remains local to that browser/app on that device. Installing on another device does not transfer progress. Export before clearing browser data.
+
+The game must be served over HTTPS for phone installation and offline support. `localhost` works for desktop development, but your phone’s `localhost` does not point at your computer. Opening `index.html` directly does not enable offline installation.
+
 ## Develop
 
 Requires Node.js 24 (no third-party dependencies).
